@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-color: #121212; /* Dark theme background */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #00bcd4; /* Sky blue border */
+    object-fit: cover;
+}
+
+h1 {
+    color: #00bcd4; /* Sky blue color for name */
+    margin-top: 15px;
+    font-size: 2.5em;
+}
+
+p {
+    color: #b0bec5;
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #121212; /* Dark text color */
+    background-color: #00bcd4; /* Sky blue background */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #0288d1; /* Slightly darker sky blue on hover */
+    color: #ffffff; /* White text on hover for contrast */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background-color: #1e1e1e; /* Dark background for sections */
+}
+
+h2 {
+    text-align: center;
+    color: #00bcd4; /* Sky blue color for section headings */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Internships Section */
+#internships {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Feedback Section */
+#feedback {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Contact Me Section */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the entire section */
+    color: #b0bec5;
+    font-size: 1.2em;
+    max-width: 600px; /* Optional: Set a maximum width for the content */
+    margin: 0 auto; /* Center the section on the page */
+}
+
+.contact-details p {
+    width: 100%; /* Ensure each line takes up the full width */
+    text-align: left; /* Start each line from the left */
+    margin: 0 auto 10px auto; /* Center each line and add some spacing below */
+}
+
+/* Feedback Section */
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+}
+
+.feedback-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00bcd4; /* Sky blue color for labels */
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333; /* Dark text color */
+    background-color: #1e1e1e; /* Dark background for inputs and textarea */
+}
+
+.feedback-form button {
+    background-color: #00bcd4; /* Sky blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #0288d1; /* Slightly darker sky blue on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #b0bec5;
+}
